@@ -1,0 +1,135 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HtML form</title>
+    <style>
+        body{
+            padding: 0px;
+            border: 9px;
+            border-color: black;
+            margin: 5p;
+        }
+        form{
+            background-color: yellowgreen;
+            padding:30%;
+            margin: 4px;
+            border-color: black;
+            display: flexbox;
+            align-items: center;
+            justify-content: center;
+            size: 500px;
+            height: 50%;
+            width: 50%;
+            border-radius: 10px;
+        }
+        h1{
+            color: darkred;
+        }
+        p{
+            text-size-adjust:bold;
+        }
+        input{
+            border-radius: 1px;
+            box-shadow: 3px;
+        }
+    </style>
+ </head>
+ <body>
+    <form> <fieldset>
+        <legend>
+            <h1>
+                Student Registration Form
+            </h1>
+        </legend>
+
+   
+        <p>
+            <label for="name">Name</label>
+            <input type="text" id="name" class="Name">
+        </p>
+         <br>
+    <P>
+        <label for="number">Phone</label>
+        <input type="number" id="number">
+    </P>
+    <br>
+    <P>
+        <label for="email">Email</label>
+        <input type="text" id="text">
+    </P>
+    <br>
+    <p>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+    </p>
+    <br>
+    <p>
+        <label for="age">Age</label>
+        <input type="number">
+    </p>
+    <br>
+    <p>
+        <label for="birthdate">Date of Birth</label>
+        <input type="date" id="date">
+    </p>
+    <br>
+    <p>
+        <p>Gender</p>
+        <label for="gender">Male</label>
+        <input type="radio" id="gender">
+   
+        <label for="gender">Female</label>
+        <input type="radio" id="gender">
+  
+        <label for="gender">Others</label>
+        <input type="radio" id="gender">
+    </p>
+    <br>
+    <p>
+        <label for="address">Address</label><br>
+        <input type="text" id="address">
+    </p>
+    <p>
+       
+        <input type="text" id="address" placeholder="Enter the City">
+    </p>
+    <p>
+       
+        <input type="text" id="address" placeholder="Enter the District">
+    </p>
+    <p>
+       
+        <input type="text" id="address" placeholder="Enter the State">
+    </p>
+    <br>
+    <p>
+        <label for="gender">Bloood Group</label>
+        <select name="drop-down"><br>
+            <option value="A">A</option>
+            <option value="A+">A+</option>
+            <option value="B">B</option>
+            <option value="B+">B+</option>
+            <option value="AB">AB</option>
+            <option value="AB+">AB+</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select>
+    </p>
+    <br>
+    <p>
+        <label for="photo">Photo</label>
+        <input type="file" id="photo">
+    </p>
+    <br>
+        <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </p>
+        </fieldset>
+    </form>
+    
+ </body>
+ </html>
